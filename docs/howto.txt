@@ -22,3 +22,6 @@
 ■本番に反映する方法
 1,デザインカスタマイズ　ヘッダー設定をオン
 https://olp-medical.jp/aspadmnt/index.cfm?fuseaction=customDesign.edit
+
+2,デザインカスタマイズ　サイドメニュー設定をオフ
+https://olp-medical.jp/aspadmnt/index.cfm?fuseaction=customDesign.edit
