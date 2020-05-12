@@ -6335,18 +6335,19 @@
                       </ul>
                       <hr class="mb-4 bg-info">
                       <!-- 看護師系クリックで項目を表示 -->
-                      <script> $(function(){
-  $('#kango').hide();
-  $(".kango").click(function(){
-    var ck_count = $(".cb :checked").length;
-    if (ck_count == 0 ){
-      document.getElementById("kango").style.display="none";
-    } else {
-      document.getElementById("kango").style.display="block";
-    }
-  });
-});
-</script>
+                      <script>
+                        $(function() {
+                          $('#kango').hide();
+                          $(".kango").click(function() {
+                            var ck_count = $(".cb :checked").length;
+                            if (ck_count == 0) {
+                              document.getElementById("kango").style.display = "none";
+                            } else {
+                              document.getElementById("kango").style.display = "block";
+                            }
+                          });
+                        });
+                      </script>
                       <!-- 看護師系対象項目 -->
                       <div id="kango">
                         <p class="lead text-info">診療科目</p>
@@ -6472,6 +6473,7 @@
       </div>
     </div>
   </div>
+  
   <div class="pb-5 bg-light">
     <div class="container">
       <div class="row">
