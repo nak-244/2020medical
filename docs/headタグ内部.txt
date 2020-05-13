@@ -1,0 +1,379 @@
+<link rel='SHORTCUT ICON' href='http://olp-medical.jp/img_sys/1/ffls/favicon.png' />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86542562-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<style type="text/css">
+<!--
+.regist_mail_on:after{
+  content: '【配信しない】に設定しても、サイトからのお仕事情報はお送り致します。';
+  display: block; /*改行*/
+  color: red;
+  font-size:0.8em;
+}
+.regist_mail_on:before{
+  content: 'メールマガジンの配信設定です。';
+  display: block; /*改行*/
+  font-size:0.8em;
+}
+@media screen and (min-width:641px){
+.sp_disp{display: none;}
+.pc_disp{display: block;}
+}
+@media screen and (max-width:640px){
+.sp_disp{display: block;}
+.pc_disp{display: none;}
+}
+body{
+color: #555655!important;
+font-size: 16px!important;
+border-top: 5px solid #71bf17!important;
+}
+.mod_nav,
+.col-2 #side ul.function li.regist a,
+.mod_nav p.navtitle,
+.topsearch h2, .jobs h2, .checkjob h2, #news h2, #petit h2, #osusume h2,
+small{
+background: #71bf17!important;
+}
+.topsearch table th{
+background: #fafbc0!important;
+color: #606128!important;
+font-weight: normal!important;
+padding-left: 20px;
+}
+h1{
+padding: 0 15px!important;
+}
+.mod_nav{
+margin-top: 0!important;
+}
+.navtitle{
+margin: -55px 15px 0 0!important;
+}
+.title{
+display: none;
+}
+.outline{
+margin: 2em auto 1.5em!important;
+font-size: 18px!important;
+font-weight: bold!important;
+color: #659a28;
+}
+.box-a{
+border-bottom: none!important;
+}
+.topsearch .bt_search input{
+background-color: #f16f23!important;
+}
+.jobs span.go-detail{
+background: #f16f23!important;
+}
+.col-2 #side ul.function li.search a{
+background: #f16f23!important;
+border-bottom: solid 4px #b3541c!important;
+border-top: none!important;
+border-right: none!important;
+border-left: none!important;
+}
+footer,
+#search-detail .act-button{
+background: #e0f7c2!important;
+}
+#side{
+background: #F8F9DA!important;
+}
+.buttonCheck label{
+border: 1px solid #c4e898!important;
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #e0f7c2 100%);
+}
+.topsearch h2, .jobs h2, .checkjob h2, #news h2, #petit h2, #osusume h2{
+color: #fff;
+text-align: center;
+}
+#mainvisual{
+display: none;
+}
+.col-2 #side #menu-history h3{
+background:url(../img/common/ico_history.png) 10px 4px #80b57d no-repeat!important;
+}
+.col-2 #side #menu-quick h3{
+background:url(../img/common/ico_quick.png) 10px 4px #80b57d no-repeat!important;
+}
+.col-2 #side ul.contents li a{
+padding: 10px 15px 10px 20px;
+font-size: 16px;
+}
+.col-2 #side ul.contents li a:after{
+top: 40%;
+}
+.mod_nav ul li a{
+font-size: 17px;
+}
+#search-list .search-list-box .photo{
+max-width: 240px!important;
+min-width: 200px!important;
+}
+.photo img,
+.photo-s img{
+max-width: 240px!important;
+min-width: 0!important;
+}
+h3{
+font-size: 18px!important;
+}
+h4{
+font-size: 16px!important;
+}
+.subcontents li,
+#search-detail .search-detail-box table,
+#search-list .search-list-box table{
+font-size: 16px!important;
+}
+#search-detail .search-detail-box th,
+#search-list .search-list-box th{
+width: 70px!important;
+}
+.back a{
+background: #888;
+padding: .5em 2em;
+display: inline-block;
+color: #fff!important;
+border-radius: 5px;
+border-bottom: solid 3px #555;
+}
+.back{
+text-align: center!important;
+}
+#search-list .search-list-box .act-button a{
+font-size: 17px!important;
+}
+#search-list nav.pager li.nxt a:after{
+top: 42%;
+}
+.jobs span.go-detail:after,
+#search-list .search-list-box .act-button a.detail:after{
+top: 38%!important;
+}
+.more,
+#search-list nav.pager{
+font-size: 13px!important;
+}
+.col-2 #side #menu-quick ul.joblist li{
+font-size: 13px!important;
+}
+#search-list p.search-more,
+.jobs ul li a h5,
+.jobs ul.data li{
+font-size: 15px!important;
+}
+#search-list nav.pager li{
+width: 32%!important;
+}
+.jobs ul.data li b{
+color: #195a15!important;
+}
+#pankuzu{
+padding: 10px 5px 0px 0!important;
+}
+#pankuzu ul{
+padding: 8px 0 0px 7px!important;
+}
+/*--header--*/
+header,
+.mod_nav{
+display: none;
+}
+/*--SP--*/
+.sp_disp .head{
+margin:0;
+}
+.sp_disp .header-1{
+padding: 0 .5em;
+}
+.sp_disp .header-1-l{
+float:left;
+}
+.sp_disp .header-1-l img{
+width: 80.8%;
+max-width: 220px;
+padding-left: 7px;
+display: block;
+}
+.sp_disp .header-1-r{
+float:right;
+}
+.sp_disp .header-1-r img{
+width: 100%;
+max-width: 45px;
+margin: 8px 7px 0 0;
+}
+.sp_disp .gnav_sp{
+text-align: left;
+}
+.sp_disp .gnav_sp ul{
+background: #71bf17;
+}
+.sp_disp .gnav_sp li{
+display: inline-block;
+width: 49%;
+}
+.sp_disp .gnav_sp li a{
+text-decoration: none;
+color: #fff;
+font-size: 17px;
+padding: 11.5px 0 11.5px 11px;
+display: inline-block;
+border-bottom: dotted 1px #ccc;
+background: #71bf17;
+background-image: url(https://www.olp.co.jp/majomo/img/icon-arrow-w.png);
+background-repeat: no-repeat;
+background-position: 87.5% 50%;
+width: 100%;
+}
+.f-right{
+float: right;
+}
+.sp_disp .line-bottom a{
+border-bottom: none!important;
+}
+/*--PC--*/
+.pc_disp .head{
+width:960px;
+margin: 0 auto -10px;
+}
+.pc_disp .header-1{
+width:960px;
+}
+.pc_disp .header-1-l{
+float:left;
+margin-left: 15px;
+}
+.pc_disp .header-1-l img{
+display: block;
+}
+.pc_disp .header-1-r{
+float: right;
+width: 680px;
+height: 70px;
+margin: 2px 0 0 0;
+}
+.pc_disp .header-button{
+float: left;
+width: 330px;
+height: 70px;
+display:none;
+}
+.pc_disp .header-button1{
+float:right;
+width: 330px;
+height: 70px;
+}
+.pc_disp .header-2{
+width:960px;
+}
+.pc_disp .header-2{
+}
+.pc_disp .header-2 li{
+float:left;
+text-align: center;
+background-color: #72bf17;
+list-style: none;
+margin-right: 1px;
+font-size: 17px;
+}
+.pc_disp .header-2 li a{
+text-decoration: none;
+color: #fff;
+width: 169px;
+display: block;
+padding: 11px;
+}
+-->
+</style>
+
+
+<script>
+$(function() {
+  $('.gnav_sp').css('display','none');
+  $('.menu_button').on('click', function() {
+	$('.gnav_sp').slideToggle('fast');
+  });
+})
+</script>
+
+
+<div class="sp_disp">
+<div class="head">
+
+<div class="header-1">
+	<div class="header-1-l">
+	<a href="https://olp-medical.jp/"><img src="https://www.olp.co.jp/majomo/img/logo-majomo.png" alt="ロゴ"></a>
+	</div>
+	<div class="header-1-r">
+	<div class="menu_button"><img src="https://www.olp.co.jp/majomo/img/menu-majomo.png" alt="メニュー"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div><!--/header-1-->
+
+<div class="gnav_sp">
+<ul class="clear">
+	<li><a href="https://olp-medical.jp/">TOP</a></li>
+	<li class="f-right"><a href="https://olp-medical.jp/index.cfm?fuseaction=job.srchform">お仕事を探す</a></li>
+	<li><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=278">支店一覧</a></li>
+	<li class="f-right"><a href="https://olp-medical.jp/index.cfm?fuseaction=job.joblist">求人一覧</a></li>
+	<li class="line-bottom"><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=224">コラム</a></li>
+	<li class="f-right line-bottom"><a href="http://olp.php.xdomain.jp/majomo/contact-ma/">お問い合わせ</a></li>
+</ul>
+</div>
+
+</div>
+</div><!--/sp_disp-->
+
+
+
+<div class="pc_disp">
+<div class="head">
+
+<div class="header-1">
+	<div class="header-1-l">
+	<a href="https://olp-medical.jp/"><img src="https://www.olp.co.jp/majomo/img/logo-majomo.png" alt="ロゴ"></a>
+	</div>
+	<div class="header-1-r">
+	<div class="header-button"><a href="aaa"><img src="aaa" alt="aaa"></a></div>
+	<div class="header-button1"><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.inquiries"><img src="https://www.olp.co.jp/majomo/img/contact_330-70.png" alt="お問い合わせ"></a></div>
+	<div style="clear:both;"></div>
+	</div><!--header-1-r-->
+<div style="clear:both;"></div>
+</div><!--/header-1-->
+
+<div class="header-2">
+	<ul>
+	<li class="gnav"><a href="https://olp-medical.jp/">TOP</a></li>
+	<li class="gnav"><a href="https://olp-medical.jp/index.cfm?fuseaction=job.srchform">お仕事を探す</a></li>
+	<li class="gnav"><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=278">支店一覧</a></li>
+	<li class="gnav"><a href="https://olp-medical.jp/index.cfm?fuseaction=job.joblist">求人一覧</a></li>
+	<li class="gnav"><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=224">コラム</a></li>
+</ul>
+	<div style="clear:both;"></div>
+</div><!--/header-2-->
+
+</div>
+</div><!--/pc_disp-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140261871-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140261871-1');
+</script>
