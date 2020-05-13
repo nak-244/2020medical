@@ -1,0 +1,159 @@
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
+}
+
+.spacer10 {
+    clear: both;
+    width: auto;
+    height: 10px;
+}
+.spacer20 {
+    clear: both;
+    width: auto;
+    height: 20px;
+}
+.spacer30 {
+    clear: both;
+    width: auto;
+    height: 30px;
+}
+
+/* imgリンク　マウスオーバーできらっと */
+.alpha a:hover img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+
+/*
+ * テーブル調整
+ */
+ .shokai{
+   width:100%;
+   border: 2px solid #d6ceb4;
+   overflow: hidden;
+   word-break: break-all;
+   word-wrap: break-word;
+ }
+
+ .shokai th{
+   padding: 6px 8px 5px;
+   border-top: solid 1px #ffffff;
+   width: 30%;
+   overflow: hidden;
+   color: #13131e;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 100%;
+   text-align: left;
+   word-break: break-all;
+   word-wrap: break-word;
+   vertical-align: top;
+   background-color: #eeece4;
+ }
+
+ .shokai td{
+ padding: 5px 10px;
+ text-align: left;
+ vertical-align: top;
+ color: #595960;
+ background-color: #ffffff;
+ border-top: dotted 1px #e0dccc;
+ overflow: hidden;
+ word-break: break-all;
+ word-wrap: break-word;
+ }
+
+ @media (max-width: 400px){
+ .shokai th{
+   width:100%;
+   display:block;
+   margin: 0 auto;
+   border:none;
+   border-radius: 3px;
+ }
+ .shokai td{
+   display: list-item;
+   width: 100%;
+   border-top: none !important;
+ }
+ }/* end */
+
+ /*
+  * フロー　feature_3で使用
+  */
+  .steps-title {
+    width: 100%;
+    margin: 0 .5em 1em 0em;
+    background: #eaeebb;
+    text-decoration: none;
+    color: #444;
+    position: relative;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+
+  .form-explain {
+    min-height: 5em;
+  }
+
+  .steps-title::after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #eaeebb;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+  }
+
+  @media print, screen and (max-width: 768px) {
+    .steps-title {
+      width: 80%;
+      margin: 0 auto 30px;
+      background: #eaeebb;
+      text-decoration: none;
+      color: #444;
+      position: relative;
+      height: auto;
+      text-align: center;
+      padding: 10px;
+    }
+    .steps-title::after {
+      content: "";
+      display: block;
+      border-top: 20px solid #eaeebb !important;
+      border-right: 38vw solid transparent !important;
+      border-left: 38vw solid transparent !important;
+      border-bottom: none;
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -20px !important;
+      top: auto !important;
+      left: 50%;
+      margin-top: 0 !important;
+      margin-left: -38vw;
+    }
+  }
+
+  .infobox {
+     height: 6.3em;     /* 高さを制限(※) */
+     overflow: auto;  /* スクロールバーを表示(※) */
+     border: red 1px dashed;    /* 枠線を追加 */
+     background-color: #fff0f0; /* 背景色を追加 */
+  }
