@@ -9,6 +9,17 @@
   ga('send', 'pageview');
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140261871-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140261871-1');
+</script>
+
+
 <style type="text/css">
 <!--
 .regist_mail_on:after{
@@ -366,14 +377,3 @@ $(function() {
 
 </div>
 </div><!--/pc_disp-->
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140261871-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140261871-1');
-</script>

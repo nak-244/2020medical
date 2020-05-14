@@ -25,3 +25,23 @@ https://olp-medical.jp/aspadmnt/index.cfm?fuseaction=customDesign.edit
 
 2,デザインカスタマイズ　サイドメニュー設定をオフ
 https://olp-medical.jp/aspadmnt/index.cfm?fuseaction=customDesign.edit
+
+3,アクセス解析タグ　headタグ内部を変更
+https://olp-medical.jp/aspadmnt/index.cfm?fuseaction=conversion.edit
+
+4,レイアウト変更
+https://olp-medical.jp/aspadmnt/index.cfm?fuseaction=layoutset.list
+
+【変更前　TOPメインエリア】
+フリーエリア１
+カンタン仕事検索
+フリーエリア２
+
+【変更後　TOPメインエリア】
+フリーエリア３
+フリーエリア４
+フリーエリア５
+フリーエリア６
+フリーエリア７
+フリーエリア８
+フリーエリア９
