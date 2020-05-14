@@ -1,0 +1,11 @@
+<footer>
+<p id="page-top"><a href="#">▲ ページ上部へ</a></p>
+
+<ul class="subcontents">
+	<li><a href="https://olp-medical.jp/" target="_blank">TOP</a></li>
+	<li><a href="http://www.olp.co.jp/company/" target="_blank">会社概要</a></li>
+	<li><a href="https://www.olp.co.jp/privacy/policy.html" target="_blank">個人情報保護方針 </a></li>
+	<li><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.inquiries">お問い合わせ</a></li>
+	<li><a href="https://olp-medical.jp/index.cfm?fuseaction=contents.sitemap">サイトマップ</a></li>
+</ul>
+</footer>
