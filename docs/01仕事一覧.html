@@ -136,12 +136,29 @@
 			}
 
 			#search-list nav.pager {
-				width: 90%;
+				width: 100%;
+			}
+
+			#search-list nav.pager li {
+				width: 33%;
+			}
+
+			#search-list nav.pager li.prv {
+				text-align: right;
+			}
+
+			#search-list nav.pager li.nxt {
+				width: 31%;
+				text-align: left;
 			}
 
 			@media screen and (max-width: 750px) {
 				h1.title {
 					margin-top: 20px;
+				}
+
+				#search-list nav.pager {
+					width: 100%;
 				}
 			}
 
