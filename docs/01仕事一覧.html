@@ -74,6 +74,90 @@
 		</style>
 		<!-- 追加 -->
 		<style type="text/css">
+			#search-list p.search-more {
+				background: #e91e63;
+				font-size: 16px;
+			}
+
+			#search-list p.search-more span {
+				color: #e91e63;
+				width: 20px;
+				height: 20px;
+			}
+
+			#search-list p.search-more:hover {
+				background: #e91e63;
+			}
+
+			#search-list .wide p {
+				position: relative;
+				overflow: hidden;
+				width: 250px;
+				padding: 14px;
+				text-decoration: none;
+				box-shadow: 0 3px 4px #800;
+				transition: box-shadow .5s;
+			}
+
+			#search-list .wide p:before {
+				content: "";
+				display: block;
+				width: 30px;
+				height: 100px;
+				position: absolute;
+				left: -30%;
+				top: -50%;
+				background-image: linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 50%, rgba(255, 255, 255, 0) 100%);
+				background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, .8)), color-stop(100%, rgba(255, 255, 255, 0)));
+				transform: rotate(45deg);
+				-webkit-transform: rotate(45deg);
+				animation: shine 3s infinite linear;
+				-webkit-animation: shine 3s infinite linear;
+			}
+
+			@keyframes shine {
+				0% {
+					left: -30%;
+				}
+
+				25% {
+					left: 130%;
+				}
+
+				100% {
+					left: 130%;
+				}
+			}
+
+			@-webkit-keyframes shine {
+				0% {
+					left: -30%;
+				}
+
+				25% {
+					left: 130%;
+				}
+
+				100% {
+					left: 130%;
+				}
+			}
+
+			#search-list .wide {
+				border-top: 1px solid #F0E68C;
+				border-bottom: 1px solid #F0E68C;
+				background: #FFFFCC;
+			}
+
+			#search-list .wide .topsearch {
+				border: 1px solid #8BC34A;
+				box-shadow: none;
+			}
+
+			.topsearch table th {
+				background: #f2f2f282;
+			}
+
 			h1.title {
 				margin-top: 80px;
 				font-size: 24px;
@@ -150,6 +234,12 @@
 			#search-list nav.pager li.nxt {
 				width: 31%;
 				text-align: left;
+			}
+
+			@media screen and (max-width: 768px) {
+				.topsearch table th {
+					color: #333333;
+				}
 			}
 
 			@media screen and (max-width: 750px) {
