@@ -122,14 +122,332 @@
       display: none;
     }
 
-    .breadcrumb {
-      padding-top: 80px;
+    @media screen and (max-width: 768px) {
+      .breadcrumb {
+        margin-top: 50px !important;
+      }
+
+      small {
+        display: block;
+        text-align: center;
+      }
+    }
+  </style>
+  <!-- 追加1 -->
+  <style type="text/css">
+    #search-list p.search-more {
+      background: #e91e63;
+      font-size: 16px;
+    }
+
+    #search-list p.search-more span {
+      color: #e91e63;
+      width: 20px;
+      height: 20px;
+    }
+
+    #search-list p.search-more:hover {
+      background: #e91e63;
+    }
+
+    #search-list .wide p {
+      position: relative;
+      overflow: hidden;
+      width: 250px;
+      padding: 14px;
+      text-decoration: none;
+      box-shadow: 0 3px 4px #800;
+      transition: box-shadow .5s;
+    }
+
+    #search-list .wide p:before {
+      content: "";
+      display: block;
+      width: 30px;
+      height: 100px;
+      position: absolute;
+      left: -30%;
+      top: -50%;
+      background-image: linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 50%, rgba(255, 255, 255, 0) 100%);
+      background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, .8)), color-stop(100%, rgba(255, 255, 255, 0)));
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      animation: shine 3s infinite linear;
+      -webkit-animation: shine 3s infinite linear;
+    }
+
+    @keyframes shine {
+      0% {
+        left: -30%;
+      }
+
+      25% {
+        left: 130%;
+      }
+
+      100% {
+        left: 130%;
+      }
+    }
+
+    @-webkit-keyframes shine {
+      0% {
+        left: -30%;
+      }
+
+      25% {
+        left: 130%;
+      }
+
+      100% {
+        left: 130%;
+      }
+    }
+
+    #search-list .wide {
+      border-top: 1px solid #F0E68C;
+      border-bottom: 1px solid #F0E68C;
+      background: #FFFFCC;
+    }
+
+    #search-list .wide .topsearch {
+      border: 1px solid #8BC34A;
+      box-shadow: none;
+    }
+
+    .topsearch table th {
+      background: #f2f2f282;
+    }
+
+    h1.title {
+      margin-top: 60px;
+      font-size: 24px;
+      letter-spacing: 5px;
+      position: relative;
+      padding-left: 1.2em;
+      line-height: 1.4;
+    }
+
+    h1.title:before {
+      font-family: "FontAwesome";
+      content: "\f075";
+      position: absolute;
+      font-size: 1em;
+      left: 0;
+      top: 0;
+      color: #70c11d;
+    }
+
+    #search-list.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list .search-list-box {
+      max-width: 1200px;
+      margin: 25px auto;
+      overflow: hidden;
+    }
+
+    #search-list nav.pager li.hit {
+      text-align: center;
+    }
+
+    #search-list .search-list-box h2 {
+      background: #70C11D;
+      border-bottom: 3px solid #70C11D;
+    }
+
+    #search-list .search-list-box h3 a {
+      color: #70C11D;
+    }
+
+    #search-list .search-list-box {
+      border: 1px solid #CCCCCC;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    #search-list .search-list-box td a {
+      text-decoration: underline;
+      color: #70C11D;
+    }
+
+    #search-list .search-list-box th {
+      width: 30%;
+    }
+
+    #search-list .search-list-box .act-button a.detail {
+      background: #FFFFFF;
+      border: 1px solid #70C11D;
+    }
+
+    #search-list .search-list-box .act-button a.detail:hover {
+      color: #70C11D;
+      border: 2px solid #70C11D;
+    }
+
+    #search-list .search-list-box th {
+      background: #f2f2f282;
+    }
+
+    #search-list nav.pager {
+      width: 100%;
+    }
+
+    #search-list nav.pager li {
+      width: 36%;
+    }
+
+    #search-list nav.pager li.prv {
+      width: 30%;
+      text-align: right;
+    }
+
+    #search-list nav.pager li.nxt {
+      width: 30%;
+      text-align: left;
     }
 
     @media screen and (max-width: 768px) {
-      .breadcrumb {
-        padding-top: 10px;
+      .topsearch table th {
+        color: #333333;
       }
+    }
+
+    @media screen and (max-width: 750px) {
+      #search-list nav.pager {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 660px) {
+      #search-list .search-list-box h3 {
+        width: 100%;
+      }
+
+      #search-list .search-list-box h4 {
+        width: 64%;
+      }
+
+      #search-list .search-list-box .photo {
+        padding: 1px;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      #search-list .search-list-box h3 {
+        width: 100%;
+      }
+
+      #search-list .search-list-box h4 {
+        width: 64%;
+      }
+
+      #search-list .search-list-box .photo {
+        padding: 1px;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      #search-list .search-list-box h3 {
+        width: 100%;
+      }
+
+      #search-list .search-list-box h4 {
+        width: 64%;
+      }
+
+      #search-list .search-list-box .photo {
+        padding: 1px;
+      }
+    }
+
+    @media screen and (max-width: 340px) {
+      #search-list .search-list-box h4 {
+        width: 100%;
+      }
+
+      #search-list .search-list-box .photo {
+        min-width: 100%;
+      }
+    }
+  </style>
+  <!-- 追加2 -->
+  <style type="text/css">
+    span.icon_sub {
+      color: #FFFFFF;
+      background: #d50000;
+    }
+
+    .back a {
+      background: #888;
+      padding: .5em 2em;
+      display: inline-block;
+      color: #fff !important;
+      border-radius: 5px;
+    }
+
+    .back {
+      text-align: center !important;
+    }
+
+    #search-detail h1.title {
+      display: block;
+    }
+
+    #search-detail .act-button {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background: #70c11dcc;
+    }
+
+    #search-detail.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail .search-detail-box {
+      max-width: 1200px;
+      margin: 25px auto;
+      overflow: hidden;
+    }
+
+    #search-detail .search-detail-box h2 {
+      color: #FFFFFF;
+      background: #70C11D;
+      padding: 20px;
+    }
+
+    #search-detail .search-detail-box th {
+      width: 30%;
+      background: #f2f2f282;
+      border-top: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      #search-detail .search-detail-box .spec2 {
+        display: none;
+      }
+
+      #search-detail .search-detail-box td {
+        font-size: 1.2rem;
+        display: block;
+        padding: 20px 10px;
+      }
+
+      #search-detail .search-detail-box th {
+        width: 100%;
+        display: block;
+        border-top: none;
+        border-bottom: 1px solid #CCCCCC;
+        background: #E6E6E6;
+      }
+
     }
   </style>
 
