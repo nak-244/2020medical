@@ -26,6 +26,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://www.olp.co.jp/jobsite_assets/olp-medical.jp/js/smooth-scroll.js"></script>
   <style type="text/css">
+    body {
+      margin-top: 50px;
+    }
+
     #top.col-2 {
       flex: inherit;
       max-width: inherit;
@@ -34,6 +38,48 @@
     }
 
     #top.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #common.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #common.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail.col-1 {
       flex: inherit;
       max-width: inherit;
       padding-right: 0px;
@@ -51,6 +97,10 @@
       float: inherit;
     }
 
+    #pankuzu {
+      display: none;
+    }
+
     label {
       padding: 0px 2px;
     }
@@ -62,6 +112,24 @@
     body {
       border-top: none;
       background: none;
+    }
+
+    h1.title {
+      display: none;
+    }
+
+    .box-a h2 {
+      display: none;
+    }
+
+    .breadcrumb {
+      padding-top: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .breadcrumb {
+        padding-top: 10px;
+      }
     }
   </style>
   <!-- 追加 -->
@@ -93,7 +161,7 @@
           </div>
         </nav>
         <!-- Nav bar sp -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom border-top border-light sp">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top border-top border-light sp">
           <div class="container-fluid"> <a class="navbar-brand" href="index.html">
               <img src="https://www.olp.co.jp/jobsite_assets/olp-medical.jp/assets/img/footer_logo.png" height="40" class="d-inline-block align-top" alt=""></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button"
               data-toggle="collapse" data-target="#navbar17">
@@ -181,7 +249,9 @@
           <div class="row">
             <div class="col-md-12">
               <h1 class="mb-3">自分自身の成長を感じられること</h1>
-              <p>資格や知識がなくても、介護職として働くことは可能です。<br><br>しかし、日々の仕事を通して、専門的な知識やスキルを身につけていくことになります。<br><br>また、要介護者の些細な心の変化を見抜く力も必要になるでしょう。<br><br>特に、根本的な治療法が見つかっていない、認知症の患者を介護するにあたっては、より専門的な知識やスキルが求められます。<br><br>勉強や実践を繰り返し、スキルを高め、日々の業務に生かしていくことで、自分自身の成長を強く実感できるでしょう。</p>
+              <p>
+                資格や知識がなくても、介護職として働くことは可能です。<br><br>しかし、日々の仕事を通して、専門的な知識やスキルを身につけていくことになります。<br><br>また、要介護者の些細な心の変化を見抜く力も必要になるでしょう。<br><br>特に、根本的な治療法が見つかっていない、認知症の患者を介護するにあたっては、より専門的な知識やスキルが求められます。<br><br>勉強や実践を繰り返し、スキルを高め、日々の業務に生かしていくことで、自分自身の成長を強く実感できるでしょう。
+              </p>
             </div>
           </div>
         </div>
@@ -191,7 +261,9 @@
           <div class="row">
             <div class="col-md-12">
               <h1 class="mb-3">働きながらステップアップができること</h1>
-              <p>介護職として経験を積むことで、指導者として新人の指導にあたったり、現場スタッフのマネジメントを行ったりするなど、キャリアアップしていくことが可能です。<br><br>従来の介護職には、しっかりとしたキャリアアップの制度が確立されていませんでした。<br><br>しかし、介護職をとりまく環境は徐々に改善が進んでいます。<br><br>政府は、2017年春より「介護職員処遇改善加算」という取り組みを導入することを発表しました。<br><br>これは、介護職のキャリアアップを支援する事業所に対して、金銭的な優遇措置を行う制度です。<br><br>未経験から始めたとしても、努力次第で活躍の幅を広げることができるでしょう。</p>
+              <p>
+                介護職として経験を積むことで、指導者として新人の指導にあたったり、現場スタッフのマネジメントを行ったりするなど、キャリアアップしていくことが可能です。<br><br>従来の介護職には、しっかりとしたキャリアアップの制度が確立されていませんでした。<br><br>しかし、介護職をとりまく環境は徐々に改善が進んでいます。<br><br>政府は、2017年春より「介護職員処遇改善加算」という取り組みを導入することを発表しました。<br><br>これは、介護職のキャリアアップを支援する事業所に対して、金銭的な優遇措置を行う制度です。<br><br>未経験から始めたとしても、努力次第で活躍の幅を広げることができるでしょう。
+              </p>
             </div>
           </div>
         </div>

@@ -26,6 +26,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://www.olp.co.jp/jobsite_assets/olp-medical.jp/js/smooth-scroll.js"></script>
   <style type="text/css">
+    body {
+      margin-top: 50px;
+    }
+
     #top.col-2 {
       flex: inherit;
       max-width: inherit;
@@ -34,6 +38,48 @@
     }
 
     #top.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #common.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #common.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail.col-1 {
       flex: inherit;
       max-width: inherit;
       padding-right: 0px;
@@ -51,6 +97,10 @@
       float: inherit;
     }
 
+    #pankuzu {
+      display: none;
+    }
+
     label {
       padding: 0px 2px;
     }
@@ -62,6 +112,24 @@
     body {
       border-top: none;
       background: none;
+    }
+
+    h1.title {
+      display: none;
+    }
+
+    .box-a h2 {
+      display: none;
+    }
+
+    .breadcrumb {
+      padding-top: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .breadcrumb {
+        padding-top: 10px;
+      }
     }
   </style>
   <!-- 追加 -->
@@ -93,7 +161,7 @@
           </div>
         </nav>
         <!-- Nav bar sp -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom border-top border-light sp">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top border-top border-light sp">
           <div class="container-fluid"> <a class="navbar-brand" href="index.html">
               <img src="https://www.olp.co.jp/jobsite_assets/olp-medical.jp/assets/img/footer_logo.png" height="40" class="d-inline-block align-top" alt=""></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button"
               data-toggle="collapse" data-target="#navbar17">
@@ -181,7 +249,9 @@
           <div class="row">
             <div class="col-md-12">
               <h1 class="mb-3">介護職は正規職員・非正規職員で離職率が違う</h1>
-              <p>介護職全体の離職率は16.5％です。正規職員と非正規職員の離職率を比べると、正規職員は15.1％、非正規職員は18.0％と、非正規職員の離職率が高い傾向にあります。<br><br>訪問介護を除き、施設で働く介護職員に限定した時の離職率は、正規職員が14.9％なのに対し、非正規職員は21.7％と、大きな差がありました。<br><br>また、介護職全体の離職者のうち、3年未満で辞めた人は約75％、そのうち1年未満で離職した人は約40％でした。<br><br>特に非正規職員は1年以内に辞める割合が高く、44.2％となっています。</p>
+              <p>
+                介護職全体の離職率は16.5％です。正規職員と非正規職員の離職率を比べると、正規職員は15.1％、非正規職員は18.0％と、非正規職員の離職率が高い傾向にあります。<br><br>訪問介護を除き、施設で働く介護職員に限定した時の離職率は、正規職員が14.9％なのに対し、非正規職員は21.7％と、大きな差がありました。<br><br>また、介護職全体の離職者のうち、3年未満で辞めた人は約75％、そのうち1年未満で離職した人は約40％でした。<br><br>特に非正規職員は1年以内に辞める割合が高く、44.2％となっています。
+              </p>
             </div>
           </div>
         </div>
@@ -191,7 +261,9 @@
           <div class="row">
             <div class="col-md-12">
               <h1 class="mb-3">介護職の今後</h1>
-              <p>介護職の人手不足問題を解消するために、国は様々な改革を進めています。<br><br>その1つが「介護職員処遇改善交付金」という制度です。 この制度は、介護職の給与を引き上げることを目的に、2009年にスタートしました。<br><br>2012年度には介護報酬の改定に伴い、「介護職員処遇改善加算」に組み込まれ、引き続き処遇改善が行われています。&nbsp;<br><br>他にも、介護職員が働きやすい環境にするための「中小企業労働環境向上助成金」も創設されました。<br><br>この助成金では、移動用リフトや車椅子体重計などの購入が可能です。<br><br>こういった制度が広がっていくことで、介護職にかかる身体的な負担が軽減され、今後はさらに働きやすい職場となるでしょう。</p>
+              <p>介護職の人手不足問題を解消するために、国は様々な改革を進めています。<br><br>その1つが「介護職員処遇改善交付金」という制度です。
+                この制度は、介護職の給与を引き上げることを目的に、2009年にスタートしました。<br><br>2012年度には介護報酬の改定に伴い、「介護職員処遇改善加算」に組み込まれ、引き続き処遇改善が行われています。&nbsp;<br><br>他にも、介護職員が働きやすい環境にするための「中小企業労働環境向上助成金」も創設されました。<br><br>この助成金では、移動用リフトや車椅子体重計などの購入が可能です。<br><br>こういった制度が広がっていくことで、介護職にかかる身体的な負担が軽減され、今後はさらに働きやすい職場となるでしょう。
+              </p>
             </div>
           </div>
         </div>

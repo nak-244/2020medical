@@ -26,6 +26,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://www.olp.co.jp/jobsite_assets/olp-medical.jp/js/smooth-scroll.js"></script>
   <style type="text/css">
+    body {
+      margin-top: 50px;
+    }
+
     #top.col-2 {
       flex: inherit;
       max-width: inherit;
@@ -34,6 +38,48 @@
     }
 
     #top.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #common.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #common.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-list.col-1 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail.col-2 {
+      flex: inherit;
+      max-width: inherit;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    #search-detail.col-1 {
       flex: inherit;
       max-width: inherit;
       padding-right: 0px;
@@ -51,6 +97,10 @@
       float: inherit;
     }
 
+    #pankuzu {
+      display: none;
+    }
+
     label {
       padding: 0px 2px;
     }
@@ -62,6 +112,24 @@
     body {
       border-top: none;
       background: none;
+    }
+
+    h1.title {
+      display: none;
+    }
+
+    .box-a h2 {
+      display: none;
+    }
+
+    .breadcrumb {
+      padding-top: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .breadcrumb {
+        padding-top: 10px;
+      }
     }
   </style>
   <!-- 追加 -->
@@ -93,7 +161,7 @@
           </div>
         </nav>
         <!-- Nav bar sp -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom border-top border-light sp">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top border-top border-light sp">
           <div class="container-fluid"> <a class="navbar-brand" href="index.html">
               <img src="https://www.olp.co.jp/jobsite_assets/olp-medical.jp/assets/img/footer_logo.png" height="40" class="d-inline-block align-top" alt=""></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button"
               data-toggle="collapse" data-target="#navbar17">
@@ -181,7 +249,9 @@
           <div class="row">
             <div class="col-md-12">
               <h3 class="mb-3 text-primary">介護職員初任者研修</h3>
-              <p>介護業務の基本となる知識やスキルを得られる研修が「介護職員初任者研修」です。<br><br>「認知症の理解」、「介護におけるコミュニケーション技術」といった10科目で構成され、130時間の履修が義務付けられています。<br><br>介護職員初任者研修は、2013年以前の「ホームヘルパー2級」に相当するため、ホームヘルパー1級および2級を取得している人は、受講しなくても、介護職員初任者研修の修了者と見なされます。<br><br>また、実務経験がある介護職員については、受講科目が一部免除されます。</p>
+              <p>
+                介護業務の基本となる知識やスキルを得られる研修が「介護職員初任者研修」です。<br><br>「認知症の理解」、「介護におけるコミュニケーション技術」といった10科目で構成され、130時間の履修が義務付けられています。<br><br>介護職員初任者研修は、2013年以前の「ホームヘルパー2級」に相当するため、ホームヘルパー1級および2級を取得している人は、受講しなくても、介護職員初任者研修の修了者と見なされます。<br><br>また、実務経験がある介護職員については、受講科目が一部免除されます。
+              </p>
             </div>
           </div>
         </div>
@@ -201,7 +271,9 @@
           <div class="row">
             <div class="col-md-12" style="">
               <h3 class="mb-3 text-primary">介護福祉士</h3>
-              <p>介護職の中でも、上級資格として位置付けられているのが、国家資格である「介護福祉士」です。<br><br>資格を取得するには、年1回の筆記試験と、後日実施される実技試験に合格しなくてはなりません。<br><br>また、介護福祉士の受験要件として、実務者研修の修了と、指定機関における3年以上の実務経験が必要です。<br><br>介護福祉士の資格を取得することにより、各職場のリーダーや生活相談員として、責任ある立場での活躍が可能となります。<br><br>介護福祉士は、介護の資格の中でも、より専門性の高い知識や技能を必要とします。<br><br>そのため、資格を取得しておけば、転職の際に有利です。</p>
+              <p>
+                介護職の中でも、上級資格として位置付けられているのが、国家資格である「介護福祉士」です。<br><br>資格を取得するには、年1回の筆記試験と、後日実施される実技試験に合格しなくてはなりません。<br><br>また、介護福祉士の受験要件として、実務者研修の修了と、指定機関における3年以上の実務経験が必要です。<br><br>介護福祉士の資格を取得することにより、各職場のリーダーや生活相談員として、責任ある立場での活躍が可能となります。<br><br>介護福祉士は、介護の資格の中でも、より専門性の高い知識や技能を必要とします。<br><br>そのため、資格を取得しておけば、転職の際に有利です。
+              </p>
             </div>
           </div>
         </div>
