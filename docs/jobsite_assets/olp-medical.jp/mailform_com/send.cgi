@@ -28,7 +28,7 @@ $conf{'sendmail'} = '/usr/lib/sendmail';
 $conf{'mailto'} = 'medical_cast@openloop.co.jp,tsuyoshi.nakamura@openloop.co.jp';
 
 #07.送信完了時にリダイレクトするサンクスページ
-$conf{'thanks'} = '../com_thanks.html';
+$conf{'thanks'} = 'https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=356';
 
 #08.設置者に届くメールの件名
 $conf{'subject'} = '【メジョモ】企業様よりお問い合わせがありました';

@@ -28,7 +28,7 @@ $conf{'sendmail'} = '/usr/lib/sendmail';
 $conf{'mailto'} = 'medical_cast@openloop.co.jp,tsuyoshi.nakamura@openloop.co.jp';
 
 #07.送信完了時にリダイレクトするサンクスページ
-$conf{'thanks'} = '../reg_thanks.html';
+$conf{'thanks'} = 'https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=365';
 
 #08.設置者に届くメールの件名
 $conf{'subject'} = '【メジョモ】スタッフ簡易登録を受け付けました';
@@ -49,7 +49,7 @@ $conf{'res_body'} = <<'__res_body_eof__';
 
 ※詳細に登録をしていただくことで、よりご希望に沿ったお仕事のご案内が可能となります。
 
-URL　https://www.olp.co.jp/medical/regmore.html
+URL　https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=368
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
