@@ -57,7 +57,7 @@ $conf{'res_body'} = <<'__res_body_eof__';
 TEL：03-5368-6545
 営業時間　平日10：00～18：00
 
-URL　https://www.olp.co.jp/medical/
+URL　https://olp-medical.jp/
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 __res_body_eof__
 
