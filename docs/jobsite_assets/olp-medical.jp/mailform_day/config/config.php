@@ -16,7 +16,7 @@ $adminName = "メジョモ";
 
 
 // 送信後に戻るURL
-$returnUrl = "https://www.olp.co.jp/medical/";
+$returnUrl = "https://olp-medical.jp/";
 
 
 // 送信完了メッセージ
