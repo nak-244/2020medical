@@ -3,7 +3,7 @@ AddType text/html .html .htm
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ https://www.olp.co.jp/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ https://olp-medical.jp/$1 [R=301,L]
 
 RewriteEngine on
 RewriteCond %{HTTPS} off
