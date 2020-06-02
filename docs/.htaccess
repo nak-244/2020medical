@@ -8,3 +8,6 @@ RewriteRule ^(.*)index.html$ https://olp-medical.jp/$1 [R=301,L]
 RewriteEngine on
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteEngine on
+RewriteRule ^search.html$ https://olp-medical.jp/index.cfm?fuseaction=contents.fcts&cid=283 [R=301,L]
