@@ -1,4 +1,4 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ https://www.olp.co.jp/medical/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ https://olp-medical.jp/$1 [R=301,L]
