@@ -1,5 +1,10 @@
 AddType text/html .html .htm
 
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^1\.1\.67\.114$ [NC]
+RewriteRule .* https://olp.co.jp%{REQUEST_URI} [R=301,L]
+
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
