@@ -4,7 +4,7 @@ $(function() {
     var srh_ken_param = $('#srh_ken_param').map(function() {
       return $(this).val();
     }).get();
-    var srh_city_param = $('#srh_city_param:checked').map(function() {
+    var srh_city_param = $('#srh_city_param').map(function() {
       return $(this).val();
     }).get();
     var srh_ken_param1 = $('.srh_ken_param').map(function() {
