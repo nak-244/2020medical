@@ -1,6 +1,6 @@
 $(function() {
   var href = "https://olp-medical.jp/index.cfm";
-  $('#srh_ken_param,#srh_city_param,.srh_ken_param,.srh_city_param,.srh_jobtype_child_param,.srh_shift_param,.srh_room_type_param,.sfw,.sfw1').on('change', function() {
+  $('#srh_ken_param,.srh_ken_param,.srh_jobtype_child_param,.srh_shift_param,.srh_room_type_param,.sfw,.sfw1').on('change', function() {
     var srh_ken_param = array ($('#srh_ken_param'),$('.srh_ken_param')).map(function() {
       return $(this).val();
     }).get();
