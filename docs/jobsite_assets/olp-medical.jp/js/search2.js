@@ -5,7 +5,7 @@ $(function() {
     var srh_city_param = $('#srh_city_param').val();
     var srh_ken_param1 = $('.srh_ken_param').val();
     var srh_city_param1 = $('.srh_city_param').val();
-    var kenparam = srh_ken_param + "," + srh_ken_param1.val();
+    var kenparam = $('#srh_ken_param').val(); + "," + $('.srh_ken_param').val();
     var srh_jobtype_child_param = $('.srh_jobtype_child_param:checked').map(function() {
       return $(this).val();
     }).get();
