@@ -14,12 +14,12 @@ $(function() {
     var srh_room_type_param = $('.srh_room_type_param:checked').map(function() {
       return $(this).val();
     }).get();
-    var sfw = $('.sfw:checked').map(function() {
+    var sfw = $('.sfw:checked,.sfw1').map(function() {
       return $(this).val();
     }).get();
-    var sfw1 = $('.sfw1').val();
 
-    $('#test').prop('href', href + "?fuseaction=job.joblist&srh_ken_param=" + srh_ken_param + "," + srh_ken_param1 + "&srh_city_param=" + srh_city_param + "&srh_city_param=" + srh_city_param1 + "&srh_jobtype_child_param=" + srh_jobtype_child_param + "&srh_shift_param=" + srh_shift_param + "&srh_room_type_param=" + srh_room_type_param + "&sfw=" + sfw + "," + sfw1);
+
+    $('#test').prop('href', href + "?fuseaction=job.joblist&srh_ken_param=" + srh_ken_param + "," + srh_ken_param1 + "&srh_city_param=" + srh_city_param + "&srh_city_param=" + srh_city_param1 + "&srh_jobtype_child_param=" + srh_jobtype_child_param + "&srh_shift_param=" + srh_shift_param + "&srh_room_type_param=" + srh_room_type_param + "&sfw=" + sfw );
   });
 });
 
