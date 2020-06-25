@@ -1,11 +1,8 @@
 $(function() {
   var href = "https://olp-medical.jp/index.cfm";
   $('#srh_ken_param,#srh_city_param,.srh_ken_param,.srh_city_param,.srh_jobtype_child_param,.srh_shift_param,.srh_room_type_param,.sfw,.sfw1').on('change', function() {
-    var srh_ken_param = $('#srh_ken_param').val();
-    var srh_city_param = $('#srh_city_param').val();
-    var srh_ken_param1 = $('.srh_ken_param').val();
-    var srh_city_param1 = $('.srh_city_param').val();
-    var kenparam = $('#srh_ken_param').val() + "," + $('.srh_ken_param').val();
+    var srh_ken_param = $('#srh_ken_param').val() + "," + $('.srh_ken_param').val();
+    var srh_city_param = $('#srh_city_param').val() + "," + $('.srh_city_param').val();
     var srh_jobtype_child_param = $('.srh_jobtype_child_param:checked').map(function() {
       return $(this).val();
     }).get();
@@ -20,7 +17,6 @@ $(function() {
     }).get();
     var sfw1 = $('.sfw1').val();
 
-    $('#test').prop('href', href + "?fuseaction=job.joblist&srh_ken_param=" + kenparam + "&srh_city_param=" + srh_city_param + "," + srh_city_param1 + "&srh_jobtype_child_param=" + srh_jobtype_child_param + "&srh_shift_param=" + srh_shift_param + "&srh_room_type_param=" + srh_room_type_param + "&sfw=" + sfw + "," + sfw1);
   });
 });
 
