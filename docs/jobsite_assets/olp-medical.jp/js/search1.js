@@ -25,7 +25,7 @@ $(function() {
     var sfw = $('.sfw:checked').map(function() {
       return $(this).val();
     }).get();
-    var sfw1 = $('.sfw1:checked').map(function() {
+    var sfw1 = $('.sfw1').map(function() {
       return $(this).val();
     }).get();
 
