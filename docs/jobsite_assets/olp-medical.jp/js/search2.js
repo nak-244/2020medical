@@ -14,7 +14,7 @@ $(function() {
     var srh_room_type_param = $('.srh_room_type_param:checked').map(function() {
       return $(this).val();
     }).get();
-    var sfw = $('.sfw:checked').map(function() {
+    var sfw = $('.sfw').map(function() {
       return $(this).val();
     }).get();
     var sfw1 = $('.sfw1').val();
