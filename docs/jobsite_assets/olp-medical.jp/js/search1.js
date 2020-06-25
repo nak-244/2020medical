@@ -33,4 +33,5 @@ $(function() {
 
 $(document).ready(function() {
     $('#srh_city_param').select2({closeOnSelect:false,multiple: true,});
+    $('.srh_city_param').select2({closeOnSelect:false,multiple: true,});
 });
