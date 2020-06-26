@@ -2669,7 +2669,7 @@ function ajaxAreaToKen() {
     aj_area_id: str_area_param
   }, function(response) {
     if (!response || response.substr(0, 7) != '<option') {
-      var resHtml = '<option value="00">--ああ--</option>'; //デフォルト値
+      var resHtml = '<option value="">----</option>'; //デフォルト値
     } else {
       var resHtml = response;
     }
