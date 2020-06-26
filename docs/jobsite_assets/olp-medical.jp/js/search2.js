@@ -2662,7 +2662,7 @@ function ajaxAreaToKen() {
   // $('[name="srh_area_param"]:checked').each(function() {
   //   arr_area_param.push($(this).val());
   // });
-  // var str_area_param = arr_area_param.join(','); //現在選択中のエリアID(カンマ区切り)
+  var str_area_param = arr_area_param.join(','); //現在選択中のエリアID(カンマ区切り)
 
   $.post(url, {
     aj_areatopref: true,
