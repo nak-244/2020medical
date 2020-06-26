@@ -2658,11 +2658,11 @@ function ajaxAreaToKen() {
   var selected_ken = $('select[name="srh_ken_param"]').val();
   var selected_city = $('select[name="srh_city_param"]').val();
 
-  var arr_area_param = [];
-  $('[name="srh_area_param"]:checked').each(function() {
-    arr_area_param.push($(this).val());
-  });
-  var str_area_param = arr_area_param.join(','); //現在選択中のエリアID(カンマ区切り)
+  // var arr_area_param = [];
+  // $('[name="srh_area_param"]:checked').each(function() {
+  //   arr_area_param.push($(this).val());
+  // });
+  // var str_area_param = arr_area_param.join(','); //現在選択中のエリアID(カンマ区切り)
 
   $.post(url, {
     aj_areatopref: true,
