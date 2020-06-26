@@ -2665,11 +2665,11 @@ function ajaxAreaToKen() {
   var str_area_param = arr_area_param.join(','); //現在選択中のエリアID(カンマ区切り)
 
   $.post(url, {
-    aj_areatopref: false,
+    aj_areatopref: true,
     aj_area_id: str_area_param
   }, function(response) {
     if (!response || response.substr(0, 7) != '<option') {
-      var resHtml = '<option value="">----</option>'; //デフォルト値
+      var resHtml = '<option value="*">----</option>'; //デフォルト値
     } else {
       var resHtml = response;
     }
