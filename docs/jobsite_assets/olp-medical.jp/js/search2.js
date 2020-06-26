@@ -2669,7 +2669,7 @@ function ajaxAreaToKen() {
     aj_area_id: str_area_param
   }, function(response) {
     if (!response || response.substr(0, 7) != '<option') {
-      var resHtml = '<option value="*">----</option>'; //デフォルト値
+      var resHtml = '<option value="all">----</option>'; //デフォルト値
     } else {
       var resHtml = response;
     }
@@ -2699,7 +2699,7 @@ function ajaxKenToCity(resume_flg, resume_id) {
     aj_ken_jis: ken_jis
   }, function(response) {
     if (!response || response.substr(0, 7) != '<option') {
-      var resHtml = '<option value="*">----</option>'; //デフォルト値
+      var resHtml = '<option value="all">----</option>'; //デフォルト値
     } else {
       var resHtml = response;
     }
@@ -2748,7 +2748,7 @@ function ajaxAreaToKen2() {
     aj_area_id: str_area_param
   }, function(response) {
     if (!response || response.substr(0, 7) != '<option') {
-      var resHtml = '<option value="*">----</option>'; //デフォルト値
+      var resHtml = '<option value="all">----</option>'; //デフォルト値
     } else {
       var resHtml = response;
     }
@@ -2778,7 +2778,7 @@ function ajaxKenToCity2(resume_flg, resume_id) {
     aj_ken_jis: ken_jis
   }, function(response) {
     if (!response || response.substr(0, 7) != '<option') {
-      var resHtml = '<option value="*">----</option>'; //デフォルト値
+      var resHtml = '<option value="all">----</option>'; //デフォルト値
     } else {
       var resHtml = response;
     }
